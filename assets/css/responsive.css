@@ -1,0 +1,102 @@
+@media screen and (max-width: 991px) {
+    .main-homepage .container {
+        max-width: 940px;
+    }
+
+    .affiliate {
+        padding-top: 0;
+    }
+
+    .affiliate__subhead {
+        max-width: 940px;
+        background-color: #fff;
+        color: #031836;
+    }
+
+    .affiliate__italic {
+        color: #031836;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .affiliate__inner p {
+        font-size: 40px;
+    }
+
+    .affiliate__inner .blue-color.big-font {
+        font-size: 50px;
+    }
+
+    .marketers__inner h2,
+    .faster__inner h2, .solution__inner h2,
+    .unlimited__inner h2, .unlimited__inner p {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px
+    }
+
+    .header__inner .cta a {
+        margin-left: 10px;
+        padding: 8px 12px;
+        width: auto;
+        min-width: auto;
+        height: auto;
+        line-height: normal;        
+        font-size: 18px;
+    }
+
+    .affiliate__italic {
+        font-size: 22px;
+    }
+
+    .affiliate__inner p {
+        font-size: 36px;
+    }
+
+    .affiliate__inner .blue-color.big-font {
+        font-size: 40px;
+    }
+
+    .affiliate-row-wrap {
+        padding: 30px 12px;
+    }
+
+    .main-homepage .buttons .btn {
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .marketers-row-wrap, .faster-row-wrap, 
+    .solution-row-wrap, .unlimited-row-wrap{
+        padding: 30px 12px;
+    }
+
+    .marketers__inner h2,
+    .faster__inner h2, .solution__inner h2,
+    .unlimited__inner h2, .unlimited__inner p {
+        font-size: 36px;
+    }
+
+    .page-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .page-content h1 {
+        font-size: 26px;
+    }
+
+    .page-content p {
+        font-size: 20px;
+    }
+
+    .page-content h2 {
+        font-size: 24px;
+    }
+}

@@ -409,3 +409,37 @@ a {
     text-align: center;
     line-height: 1.6;
 }
+
+
+/***************** PAGE CONTENT ******************/
+.page-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F7F8FC;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.page-content h1 {
+    color: var(--darkText);
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.page-content p {    
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.page-content h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 1.2;
+    color: var(--darkText);
+    font-weight: bold;
+}
